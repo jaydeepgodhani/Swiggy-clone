@@ -9,12 +9,19 @@
   width: 100%;
 }
 
-.navbar{
+.navbar > li{
+  display: inline-block;
+  margin: 0 20;
+  align-items: center;
+}
+
+.nav-heading{
   position: relative;
   float: right;
   display: flex;
   justify-content: space-between;
   margin: 0 30;
+  align-items: center;
 }
 
 div > a {
@@ -25,9 +32,11 @@ div > a {
   margin: 30;
 }
 
+
 .login-button{
   margin: 0 30;
   width: 100px;
+  height: fit-content;
 }
 
 .body {

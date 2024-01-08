@@ -1,4 +1,4 @@
-export const fetchDataURL = 'https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9715987&lng=77.5945627&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING';
+export const fetchDataURL = 'http://localhost:3000/restaurants';
 
 export const fetchDataImg = 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/';
 
@@ -307,3 +307,5 @@ export const data = [
       "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
   }
 ];
+
+export const fetchRestaurantMenu = "http://localhost:3000/menu/";
