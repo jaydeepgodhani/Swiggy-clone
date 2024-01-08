@@ -36,7 +36,7 @@ const Body = () => {
           <button
             onClick={() => {
               setDisplayData(
-                hotelData.filter((item) => item.info.name.includes(inputText))
+                hotelData.filter((item) => item.name.includes(inputText))
               );
             }}
             className="px-4 bg-blue-500 mx-4 rounded-md"
