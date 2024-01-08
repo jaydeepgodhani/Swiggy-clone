@@ -22,11 +22,12 @@ const Body = () => {
   };
 
   return (
-    <div className="body">
+    <div className="p-8">
       {dataLoaded === true ? (
         <div>
           <input
             type="text"
+            className="border border-solid border-black"
             onChange={(e) => {
               setInputText(e.target.value);
             }}
@@ -38,11 +39,11 @@ const Body = () => {
                 hotelData.filter((item) => item.info.name.includes(inputText))
               );
             }}
-            style={{ margin: "0 10px" }}
+            className="px-4 bg-blue-500 mx-4 rounded-md"
           >
             Search
           </button>
-          <div className="card-layout">
+          <div className="flex mt-4 flex-wrap flex-auto">
             {displayData.map((item) => {
               return (
                 <Link key={item.id} to={'/restaurant/'+item.id}>

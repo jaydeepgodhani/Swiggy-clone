@@ -24,8 +24,8 @@ const Restaurant = () => {
   const items = resInfo["menu-items"];;
 
   return (
-    <div>
-      <h1>
+    <div className="p-8">
+      <h1 className="font-bold py-4">
         {name} - {costForTwo}
       </h1>
 
