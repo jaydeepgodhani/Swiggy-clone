@@ -3,6 +3,7 @@
     {
       "id": "1",
       "name": "Andhra Gunpowder",
+      "promoted": true,
       "cloudinaryImageId": "bs9qgsy25pn07pzn6xx1",
       "locality": "Shivananda Circle",
       "areaName": "Seshadripuram",
@@ -66,6 +67,7 @@
     {
       "id": "2",
       "name": "Ambur Star Briyani Since 1890",
+      "promoted": false,
       "cloudinaryImageId": "gqnh3aia8bmmpjmcrdeg",
       "locality": "2nd stage",
       "areaName": "Indiranagar",
@@ -131,6 +133,7 @@
     {
       "id": "3",
       "name": "Lavonne",
+      "promoted": true,
       "cloudinaryImageId": "emlehbuwgsmryxhwzhvq",
       "locality": "St. Marks Road",
       "areaName": "St. Marks Road",
@@ -208,6 +211,7 @@
     {
       "id": "4",
       "name": "Burger King",
+      "promoted": false,
       "cloudinaryImageId": "e33e1d3ba7d6b2bb0d45e1001b731fcf",
       "locality": "Tasker Town",
       "areaName": "Shivaji Nagar",
@@ -250,6 +254,7 @@
     {
       "id": "5",
       "name": "KFC",
+      "promoted": false,
       "cloudinaryImageId": "f01666ac73626461d7455d9c24005cd4",
       "locality": "Cunnigham road",
       "areaName": "Vasanth Nagar",
@@ -296,6 +301,7 @@
     {
       "id": "6",
       "name": "McDonald's",
+      "promoted": true,
       "cloudinaryImageId": "bb7ae131544c7d37e10fc5faf76f09d6",
       "locality": "MG Road",
       "areaName": "Ashok Nagar",
@@ -360,6 +366,7 @@
     {
       "id": "7",
       "name": "Theobroma",
+      "promoted": false,
       "cloudinaryImageId": "b033728dcb0101ceb19bff0e1e1f6474",
       "locality": "2nd stage",
       "areaName": "Indiranagar",
@@ -420,6 +427,7 @@
     {
       "id": "8",
       "name": "Domino's Pizza",
+      "promoted": false,
       "cloudinaryImageId": "fjqcvqfgqlw6h0atques",
       "locality": "Rest House Road",
       "areaName": "Brigade Road",
@@ -463,6 +471,7 @@
     {
       "id": "9",
       "name": "California Burrito",
+      "promoted": false,
       "cloudinaryImageId": "27238ee4292d42c7b705f2ce8671ff80",
       "locality": "Malleshwaram",
       "areaName": "Malleshwaram",
@@ -529,6 +538,7 @@
     {
       "id": "10",
       "name": "The Good Bowl",
+      "promoted": false,
       "cloudinaryImageId": "6e04be27387483a7c00444f8e8241108",
       "locality": "Residency Road",
       "areaName": "Shantinagar",
@@ -575,6 +585,7 @@
     {
       "id": "11",
       "name": "Dindigul Thalappakatti",
+      "promoted": false,
       "cloudinaryImageId": "ogidjgqgh5w4otvuiipj",
       "locality": "Mg Road",
       "areaName": "MG Road",
@@ -621,6 +632,7 @@
     {
       "id": "12",
       "name": "Hotel Empire",
+      "promoted": false,
       "cloudinaryImageId": "qltgnkyywuo5gmnpqzbm",
       "locality": "Brigade Road",
       "areaName": "Church Street",
@@ -665,6 +677,7 @@
     {
       "id": "13",
       "name": "Third Wave Coffee",
+      "promoted": true,
       "cloudinaryImageId": "d96267738c19ec62acb5390e52faba41",
       "locality": "Armane Nagar",
       "areaName": "Sadashiv Nagar",
@@ -728,6 +741,7 @@
     {
       "id": "14",
       "name": "Istah - The Mediterranean Way",
+      "promoted": false,
       "cloudinaryImageId": "9a01f2935fcb5ae05426db8264062102",
       "locality": "Akkithimanahalli",
       "areaName": "Santhi Nagar",
@@ -814,6 +828,7 @@
     {
       "id": "15",
       "name": "Soul Rasa",
+      "promoted": false,
       "cloudinaryImageId": "v9fczzlua1wnrx63fh1g",
       "locality": "Akkithimanahalli",
       "areaName": "Shanti Nagar",
@@ -894,6 +909,7 @@
     {
       "id": "16",
       "name": "Nandhini Deluxe",
+      "promoted": false,
       "cloudinaryImageId": "dlt4ml0id5wei4yi840b",
       "locality": "St. Marks Road",
       "areaName": "St Marks Road",
@@ -939,6 +955,7 @@
     {
       "id": "17",
       "name": "Subway",
+      "promoted": false,
       "cloudinaryImageId": "1ace5fa65eff3e1223feb696c956b38b",
       "locality": "UB City",
       "areaName": "Ashok Nagar",
@@ -1003,6 +1020,7 @@
     {
       "id": "18",
       "name": "A2B - Adyar Ananda Bhavan",
+      "promoted": false,
       "cloudinaryImageId": "pdod4o1em9potwsd22rs",
       "locality": "Wilson Garden",
       "areaName": "Shanti Nagar",
