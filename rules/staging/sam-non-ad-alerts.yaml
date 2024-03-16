@@ -1,0 +1,67 @@
+groups:
+  - name: SAM Non-AD Alerts
+    rules:
+      - alert: SAM Cassandra failure to rotate secret
+        annotations:
+          message: "SAM Cassandra failure to rotate secret"
+        expr: increase(sam_non_ad_cassandra_failure_to_completely_rotate_secrets_counter{service="service-account-mgmt"}[10m]) > 0
+        for: 5m
+        labels:
+          severity: warning
+          alert_team: data_platform_dp_app_data_platform_security
+          mms_slack_channel: data-platform-security-alerts
+          alert_component: "{{$labels.instance_id}}}_{{ $labels.location}}"
+          cluster_id: "{{$labels.cluster_id}}"
+          instance_id: "{{$labels.instance_id}}"
+
+      - alert: SAM Cassandra get admin credential failure
+        annotations:
+          message: "SAM Cassandra get admin credential failure"
+        expr: increase(sam_non_ad_cassandra_get_admin_creds_failure_counter{service="service-account-mgmt"}[10m]) > 0
+        for: 5m
+        labels:
+          severity: warning
+          alert_team: data_platform_dp_app_data_platform_security
+          mms_slack_channel: data-platform-security-alerts
+          alert_component: "{{$labels.instance_id}}}_{{ $labels.location}}"
+          cluster_id: "{{$labels.cluster_id}}"
+          instance_id: "{{$labels.instance_id}}"
+
+      - alert: SAM Cassandra Non-SSL connection failure
+        annotations:
+          message: "SAM Cassandra Non-SSL connection failure"
+        expr: increase(sam_non_ad_cassandra_non_ssl_connection_failure_counter{service="service-account-mgmt"}[10m]) > 0
+        for: 5m
+        labels:
+          severity: warning
+          alert_team: data_platform_dp_app_data_platform_security
+          mms_slack_channel: data-platform-security-alerts
+          alert_component: "{{$labels.instance_id}}}_{{ $labels.location}}"
+          cluster_id: "{{$labels.cluster_id}}"
+          instance_id: "{{$labels.instance_id}}"
+
+      - alert: SAM Cassandra SSL connection failure
+        annotations:
+          message: "SAM Cassandra SSL connection failure"
+        expr: increase(sam_non_ad_cassandra_ssl_connection_failure_counter{service="service-account-mgmt"}[10m]) > 0
+        for: 5m
+        labels:
+          severity: warning
+          alert_team: data_platform_dp_app_data_platform_security
+          mms_slack_channel: data-platform-security-alerts
+          alert_component: "{{$labels.instance_id}}}_{{ $labels.location}}"
+          cluster_id: "{{$labels.cluster_id}}"
+          instance_id: "{{$labels.instance_id}}"
+
+      - alert: SAM Cassandra rotate secret async job failure
+        annotations:
+          message: "SAM Cassandra rotate secret async job failure"
+        expr: increase(sam_non_ad_cassandra_rotate_secret_async_job_failure_counter{service="service-account-mgmt"}[10m]) > 0
+        for: 5m
+        labels:
+          severity: warning
+          alert_team: data_platform_dp_app_data_platform_security
+          mms_slack_channel: data-platform-security-alerts
+          alert_component: "{{$labels.instance_id}}}_{{ $labels.location}}"
+          cluster_id: "{{$labels.cluster_id}}"
+          instance_id: "{{$labels.instance_id}}"

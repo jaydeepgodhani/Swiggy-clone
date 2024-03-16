@@ -1089,44 +1089,62 @@
       "costForTwo": "₹350 for two",
       "menu-items": [
         {
-          "name": "one",
-          "price": 100,
-          "key": 1
+          "category": "Recommended",
+          "menu": [{
+              "name": "one",
+              "price": 100,
+              "key": 1
+            },
+            {
+              "name": "two",
+              "price": 200,
+              "key": 2
+            }]
         },
         {
-          "name": "two",
-          "price": 200,
-          "key": 2
+          "category": "Thali/Meal",
+          "menu": [
+            {
+              "name": "three",
+              "price": 300,
+              "key": 3
+            },
+            {
+              "name": "four",
+              "price": 400,
+              "key": 4
+            }
+          ]
         },
         {
-          "name": "three",
-          "price": 300,
-          "key": 3
+          "category": "Newly Added",
+          "menu": [
+            {
+              "name": "five",
+              "price": 500,
+              "key": 5
+            },
+            {
+              "name": "six",
+              "price": 600,
+              "key": 6
+            }
+          ]
         },
         {
-          "name": "four",
-          "price": 400,
-          "key": 4
-        },
-        {
-          "name": "five",
-          "price": 500,
-          "key": 5
-        },
-        {
-          "name": "six",
-          "price": 600,
-          "key": 6
-        },
-        {
-          "name": "seven",
-          "price": 700,
-          "key": 7
-        },
-        {
-          "name": "eight",
-          "price": 800,
-          "key": 8
+          "category": "Coolers",
+          "menu": [
+            {
+              "name": "seven",
+              "price": 700,
+              "key": 7
+            },
+            {
+              "name": "eight",
+              "price": 800,
+              "key": 8
+            }
+          ]
         }
       ]
     },
@@ -1137,44 +1155,64 @@
       "costForTwo": "₹600 for two",
       "menu-items": [
         {
-          "name": "one",
-          "price": 100,
-          "key": 1
+          "category": "Recommended",
+          "menu": [
+            {
+              "name": "one",
+              "price": 100,
+              "key": 1
+            },
+            {
+              "name": "two",
+              "price": 200,
+              "key": 2
+            }
+          ]
         },
         {
-          "name": "two",
-          "price": 200,
-          "key": 2
+          "category": "Thali/Meal",
+          "menu": [
+            {
+              "name": "three",
+              "price": 300,
+              "key": 3
+            },
+            {
+              "name": "four",
+              "price": 400,
+              "key": 4
+            }
+          ]
         },
         {
-          "name": "three",
-          "price": 300,
-          "key": 3
+          "category": "Newly Added",
+          "menu": [
+            {
+              "name": "five",
+              "price": 500,
+              "key": 5
+            },
+            {
+              "name": "six",
+              "price": 600,
+              "key": 6
+            }
+          ]
         },
         {
-          "name": "four",
-          "price": 400,
-          "key": 4
-        },
-        {
-          "name": "five",
-          "price": 500,
-          "key": 5
-        },
-        {
-          "name": "six",
-          "price": 600,
-          "key": 6
-        },
-        {
-          "name": "seven",
-          "price": 700,
-          "key": 7
-        },
-        {
-          "name": "eight",
-          "price": 800,
-          "key": 8
+          "category": "Coolers",
+          "menu": [
+            {
+              "name": "seven",
+              "price": 700,
+              "key": 7
+            },
+            {
+              "name": "eight",
+              "price": 800,
+              "key": 8
+            }
+          ]
         }
       ]
     },
@@ -1185,44 +1223,64 @@
       "costForTwo": "₹750 for two",
       "menu-items": [
         {
-          "name": "one",
-          "price": 100,
-          "key": 1
+          "category": "Recommended",
+          "menu": [
+            {
+              "name": "one",
+              "price": 100,
+              "key": 1
+            },
+            {
+              "name": "two",
+              "price": 200,
+              "key": 2
+            }
+          ]
         },
         {
-          "name": "two",
-          "price": 200,
-          "key": 2
+          "category": "Thali/Meal",
+          "menu": [
+            {
+              "name": "three",
+              "price": 300,
+              "key": 3
+            },
+            {
+              "name": "four",
+              "price": 400,
+              "key": 4
+            }
+          ]
         },
         {
-          "name": "three",
-          "price": 300,
-          "key": 3
+          "category": "Newly Added",
+          "menu": [
+            {
+              "name": "five",
+              "price": 500,
+              "key": 5
+            },
+            {
+              "name": "six",
+              "price": 600,
+              "key": 6
+            }
+          ]
         },
         {
-          "name": "four",
-          "price": 400,
-          "key": 4
-        },
-        {
-          "name": "five",
-          "price": 500,
-          "key": 5
-        },
-        {
-          "name": "six",
-          "price": 600,
-          "key": 6
-        },
-        {
-          "name": "seven",
-          "price": 700,
-          "key": 7
-        },
-        {
-          "name": "eight",
-          "price": 800,
-          "key": 8
+          "category": "Coolers",
+          "menu": [
+            {
+              "name": "seven",
+              "price": 700,
+              "key": 7
+            },
+            {
+              "name": "eight",
+              "price": 800,
+              "key": 8
+            }
+          ]
         }
       ]
     },
@@ -1233,44 +1291,64 @@
       "costForTwo": "₹350 for two",
       "menu-items": [
         {
-          "name": "one",
-          "price": 100,
-          "key": 1
+          "category": "Recommended",
+          "menu": [
+            {
+              "name": "one",
+              "price": 100,
+              "key": 1
+            },
+            {
+              "name": "two",
+              "price": 200,
+              "key": 2
+            }
+          ]
         },
         {
-          "name": "two",
-          "price": 200,
-          "key": 2
+          "category": "Thali/Meal",
+          "menu": [
+            {
+              "name": "three",
+              "price": 300,
+              "key": 3
+            },
+            {
+              "name": "four",
+              "price": 400,
+              "key": 4
+            }
+          ]
         },
         {
-          "name": "three",
-          "price": 300,
-          "key": 3
+          "category": "Newly Added",
+          "menu": [
+            {
+              "name": "five",
+              "price": 500,
+              "key": 5
+            },
+            {
+              "name": "six",
+              "price": 600,
+              "key": 6
+            }
+          ]
         },
         {
-          "name": "four",
-          "price": 400,
-          "key": 4
-        },
-        {
-          "name": "five",
-          "price": 500,
-          "key": 5
-        },
-        {
-          "name": "six",
-          "price": 600,
-          "key": 6
-        },
-        {
-          "name": "seven",
-          "price": 700,
-          "key": 7
-        },
-        {
-          "name": "eight",
-          "price": 800,
-          "key": 8
+          "category": "Coolers",
+          "menu": [
+            {
+              "name": "seven",
+              "price": 700,
+              "key": 7
+            },
+            {
+              "name": "eight",
+              "price": 800,
+              "key": 8
+            }
+          ]
         }
       ]
     },
@@ -1281,44 +1359,64 @@
       "costForTwo": "₹400 for two",
       "menu-items": [
         {
-          "name": "one",
-          "price": 100,
-          "key": 1
+          "category": "Recommended",
+          "menu": [
+            {
+              "name": "one",
+              "price": 100,
+              "key": 1
+            },
+            {
+              "name": "two",
+              "price": 200,
+              "key": 2
+            }
+          ]
         },
         {
-          "name": "two",
-          "price": 200,
-          "key": 2
+          "category": "Thali/Meal",
+          "menu": [
+            {
+              "name": "three",
+              "price": 300,
+              "key": 3
+            },
+            {
+              "name": "four",
+              "price": 400,
+              "key": 4
+            }
+          ]
         },
         {
-          "name": "three",
-          "price": 300,
-          "key": 3
+          "category": "Newly Added",
+          "menu": [
+            {
+              "name": "five",
+              "price": 500,
+              "key": 5
+            },
+            {
+              "name": "six",
+              "price": 600,
+              "key": 6
+            }
+          ]
         },
         {
-          "name": "four",
-          "price": 400,
-          "key": 4
-        },
-        {
-          "name": "five",
-          "price": 500,
-          "key": 5
-        },
-        {
-          "name": "six",
-          "price": 600,
-          "key": 6
-        },
-        {
-          "name": "seven",
-          "price": 700,
-          "key": 7
-        },
-        {
-          "name": "eight",
-          "price": 800,
-          "key": 8
+          "category": "Coolers",
+          "menu": [
+            {
+              "name": "seven",
+              "price": 700,
+              "key": 7
+            },
+            {
+              "name": "eight",
+              "price": 800,
+              "key": 8
+            }
+          ]
         }
       ]
     },
@@ -1329,44 +1427,64 @@
       "costForTwo": "₹400 for two",
       "menu-items": [
         {
-          "name": "one",
-          "price": 100,
-          "key": 1
+          "category": "Recommended",
+          "menu": [
+            {
+              "name": "one",
+              "price": 100,
+              "key": 1
+            },
+            {
+              "name": "two",
+              "price": 200,
+              "key": 2
+            }
+          ]
         },
         {
-          "name": "two",
-          "price": 200,
-          "key": 2
+          "category": "Thali/Meal",
+          "menu": [
+            {
+              "name": "three",
+              "price": 300,
+              "key": 3
+            },
+            {
+              "name": "four",
+              "price": 400,
+              "key": 4
+            }
+          ]
         },
         {
-          "name": "three",
-          "price": 300,
-          "key": 3
+          "category": "Newly Added",
+          "menu": [
+            {
+              "name": "five",
+              "price": 500,
+              "key": 5
+            },
+            {
+              "name": "six",
+              "price": 600,
+              "key": 6
+            }
+          ]
         },
         {
-          "name": "four",
-          "price": 400,
-          "key": 4
-        },
-        {
-          "name": "five",
-          "price": 500,
-          "key": 5
-        },
-        {
-          "name": "six",
-          "price": 600,
-          "key": 6
-        },
-        {
-          "name": "seven",
-          "price": 700,
-          "key": 7
-        },
-        {
-          "name": "eight",
-          "price": 800,
-          "key": 8
+          "category": "Coolers",
+          "menu": [
+            {
+              "name": "seven",
+              "price": 700,
+              "key": 7
+            },
+            {
+              "name": "eight",
+              "price": 800,
+              "key": 8
+            }
+          ]
         }
       ]
     },
@@ -1377,44 +1495,64 @@
       "costForTwo": "₹400 for two",
       "menu-items": [
         {
-          "name": "one",
-          "price": 100,
-          "key": 1
+          "category": "Recommended",
+          "menu": [
+            {
+              "name": "one",
+              "price": 100,
+              "key": 1
+            },
+            {
+              "name": "two",
+              "price": 200,
+              "key": 2
+            }
+          ]
         },
         {
-          "name": "two",
-          "price": 200,
-          "key": 2
+          "category": "Thali/Meal",
+          "menu": [
+            {
+              "name": "three",
+              "price": 300,
+              "key": 3
+            },
+            {
+              "name": "four",
+              "price": 400,
+              "key": 4
+            }
+          ]
         },
         {
-          "name": "three",
-          "price": 300,
-          "key": 3
+          "category": "Newly Added",
+          "menu": [
+            {
+              "name": "five",
+              "price": 500,
+              "key": 5
+            },
+            {
+              "name": "six",
+              "price": 600,
+              "key": 6
+            }
+          ]
         },
         {
-          "name": "four",
-          "price": 400,
-          "key": 4
-        },
-        {
-          "name": "five",
-          "price": 500,
-          "key": 5
-        },
-        {
-          "name": "six",
-          "price": 600,
-          "key": 6
-        },
-        {
-          "name": "seven",
-          "price": 700,
-          "key": 7
-        },
-        {
-          "name": "eight",
-          "price": 800,
-          "key": 8
+          "category": "Coolers",
+          "menu": [
+            {
+              "name": "seven",
+              "price": 700,
+              "key": 7
+            },
+            {
+              "name": "eight",
+              "price": 800,
+              "key": 8
+            }
+          ]
         }
       ]
     },
@@ -1425,44 +1563,64 @@
       "costForTwo": "₹400 for two",
       "menu-items": [
         {
-          "name": "one",
-          "price": 100,
-          "key": 1
+          "category": "Recommended",
+          "menu": [
+            {
+              "name": "one",
+              "price": 100,
+              "key": 1
+            },
+            {
+              "name": "two",
+              "price": 200,
+              "key": 2
+            }
+          ]
         },
         {
-          "name": "two",
-          "price": 200,
-          "key": 2
+          "category": "Thali/Meal",
+          "menu": [
+            {
+              "name": "three",
+              "price": 300,
+              "key": 3
+            },
+            {
+              "name": "four",
+              "price": 400,
+              "key": 4
+            }
+          ]
         },
         {
-          "name": "three",
-          "price": 300,
-          "key": 3
+          "category": "Newly Added",
+          "menu": [
+            {
+              "name": "five",
+              "price": 500,
+              "key": 5
+            },
+            {
+              "name": "six",
+              "price": 600,
+              "key": 6
+            }
+          ]
         },
         {
-          "name": "four",
-          "price": 400,
-          "key": 4
-        },
-        {
-          "name": "five",
-          "price": 500,
-          "key": 5
-        },
-        {
-          "name": "six",
-          "price": 600,
-          "key": 6
-        },
-        {
-          "name": "seven",
-          "price": 700,
-          "key": 7
-        },
-        {
-          "name": "eight",
-          "price": 800,
-          "key": 8
+          "category": "Coolers",
+          "menu": [
+            {
+              "name": "seven",
+              "price": 700,
+              "key": 7
+            },
+            {
+              "name": "eight",
+              "price": 800,
+              "key": 8
+            }
+          ]
         }
       ]
     },
@@ -1473,44 +1631,64 @@
       "costForTwo": "₹250 for two",
       "menu-items": [
         {
-          "name": "one",
-          "price": 100,
-          "key": 1
+          "category": "Recommended",
+          "menu": [
+            {
+              "name": "one",
+              "price": 100,
+              "key": 1
+            },
+            {
+              "name": "two",
+              "price": 200,
+              "key": 2
+            }
+          ]
         },
         {
-          "name": "two",
-          "price": 200,
-          "key": 2
+          "category": "Thali/Meal",
+          "menu": [
+            {
+              "name": "three",
+              "price": 300,
+              "key": 3
+            },
+            {
+              "name": "four",
+              "price": 400,
+              "key": 4
+            }
+          ]
         },
         {
-          "name": "three",
-          "price": 300,
-          "key": 3
+          "category": "Newly Added",
+          "menu": [
+            {
+              "name": "five",
+              "price": 500,
+              "key": 5
+            },
+            {
+              "name": "six",
+              "price": 600,
+              "key": 6
+            }
+          ]
         },
         {
-          "name": "four",
-          "price": 400,
-          "key": 4
-        },
-        {
-          "name": "five",
-          "price": 500,
-          "key": 5
-        },
-        {
-          "name": "six",
-          "price": 600,
-          "key": 6
-        },
-        {
-          "name": "seven",
-          "price": 700,
-          "key": 7
-        },
-        {
-          "name": "eight",
-          "price": 800,
-          "key": 8
+          "category": "Coolers",
+          "menu": [
+            {
+              "name": "seven",
+              "price": 700,
+              "key": 7
+            },
+            {
+              "name": "eight",
+              "price": 800,
+              "key": 8
+            }
+          ]
         }
       ]
     },
@@ -1521,44 +1699,64 @@
       "costForTwo": "₹400 for two",
       "menu-items": [
         {
-          "name": "one",
-          "price": 100,
-          "key": 1
+          "category": "Recommended",
+          "menu": [
+            {
+              "name": "one",
+              "price": 100,
+              "key": 1
+            },
+            {
+              "name": "two",
+              "price": 200,
+              "key": 2
+            }
+          ]
         },
         {
-          "name": "two",
-          "price": 200,
-          "key": 2
+          "category": "Thali/Meal",
+          "menu": [
+            {
+              "name": "three",
+              "price": 300,
+              "key": 3
+            },
+            {
+              "name": "four",
+              "price": 400,
+              "key": 4
+            }
+          ]
         },
         {
-          "name": "three",
-          "price": 300,
-          "key": 3
+          "category": "Newly Added",
+          "menu": [
+            {
+              "name": "five",
+              "price": 500,
+              "key": 5
+            },
+            {
+              "name": "six",
+              "price": 600,
+              "key": 6
+            }
+          ]
         },
         {
-          "name": "four",
-          "price": 400,
-          "key": 4
-        },
-        {
-          "name": "five",
-          "price": 500,
-          "key": 5
-        },
-        {
-          "name": "six",
-          "price": 600,
-          "key": 6
-        },
-        {
-          "name": "seven",
-          "price": 700,
-          "key": 7
-        },
-        {
-          "name": "eight",
-          "price": 800,
-          "key": 8
+          "category": "Coolers",
+          "menu": [
+            {
+              "name": "seven",
+              "price": 700,
+              "key": 7
+            },
+            {
+              "name": "eight",
+              "price": 800,
+              "key": 8
+            }
+          ]
         }
       ]
     },
@@ -1569,44 +1767,64 @@
       "costForTwo": "₹650 for two",
       "menu-items": [
         {
-          "name": "one",
-          "price": 100,
-          "key": 1
+          "category": "Recommended",
+          "menu": [
+            {
+              "name": "one",
+              "price": 100,
+              "key": 1
+            },
+            {
+              "name": "two",
+              "price": 200,
+              "key": 2
+            }
+          ]
         },
         {
-          "name": "two",
-          "price": 200,
-          "key": 2
+          "category": "Thali/Meal",
+          "menu": [
+            {
+              "name": "three",
+              "price": 300,
+              "key": 3
+            },
+            {
+              "name": "four",
+              "price": 400,
+              "key": 4
+            }
+          ]
         },
         {
-          "name": "three",
-          "price": 300,
-          "key": 3
+          "category": "Newly Added",
+          "menu": [
+            {
+              "name": "five",
+              "price": 500,
+              "key": 5
+            },
+            {
+              "name": "six",
+              "price": 600,
+              "key": 6
+            }
+          ]
         },
         {
-          "name": "four",
-          "price": 400,
-          "key": 4
-        },
-        {
-          "name": "five",
-          "price": 500,
-          "key": 5
-        },
-        {
-          "name": "six",
-          "price": 600,
-          "key": 6
-        },
-        {
-          "name": "seven",
-          "price": 700,
-          "key": 7
-        },
-        {
-          "name": "eight",
-          "price": 800,
-          "key": 8
+          "category": "Coolers",
+          "menu": [
+            {
+              "name": "seven",
+              "price": 700,
+              "key": 7
+            },
+            {
+              "name": "eight",
+              "price": 800,
+              "key": 8
+            }
+          ]
         }
       ]
     },
@@ -1617,44 +1835,64 @@
       "costForTwo": "₹450 for two",
       "menu-items": [
         {
-          "name": "one",
-          "price": 100,
-          "key": 1
+          "category": "Recommended",
+          "menu": [
+            {
+              "name": "one",
+              "price": 100,
+              "key": 1
+            },
+            {
+              "name": "two",
+              "price": 200,
+              "key": 2
+            }
+          ]
         },
         {
-          "name": "two",
-          "price": 200,
-          "key": 2
+          "category": "Thali/Meal",
+          "menu": [
+            {
+              "name": "three",
+              "price": 300,
+              "key": 3
+            },
+            {
+              "name": "four",
+              "price": 400,
+              "key": 4
+            }
+          ]
         },
         {
-          "name": "three",
-          "price": 300,
-          "key": 3
+          "category": "Newly Added",
+          "menu": [
+            {
+              "name": "five",
+              "price": 500,
+              "key": 5
+            },
+            {
+              "name": "six",
+              "price": 600,
+              "key": 6
+            }
+          ]
         },
         {
-          "name": "four",
-          "price": 400,
-          "key": 4
-        },
-        {
-          "name": "five",
-          "price": 500,
-          "key": 5
-        },
-        {
-          "name": "six",
-          "price": 600,
-          "key": 6
-        },
-        {
-          "name": "seven",
-          "price": 700,
-          "key": 7
-        },
-        {
-          "name": "eight",
-          "price": 800,
-          "key": 8
+          "category": "Coolers",
+          "menu": [
+            {
+              "name": "seven",
+              "price": 700,
+              "key": 7
+            },
+            {
+              "name": "eight",
+              "price": 800,
+              "key": 8
+            }
+          ]
         }
       ]
     },
@@ -1665,44 +1903,64 @@
       "costForTwo": "₹400 for two",
       "menu-items": [
         {
-          "name": "one",
-          "price": 100,
-          "key": 1
+          "category": "Recommended",
+          "menu": [
+            {
+              "name": "one",
+              "price": 100,
+              "key": 1
+            },
+            {
+              "name": "two",
+              "price": 200,
+              "key": 2
+            }
+          ]
         },
         {
-          "name": "two",
-          "price": 200,
-          "key": 2
+          "category": "Thali/Meal",
+          "menu": [
+            {
+              "name": "three",
+              "price": 300,
+              "key": 3
+            },
+            {
+              "name": "four",
+              "price": 400,
+              "key": 4
+            }
+          ]
         },
         {
-          "name": "three",
-          "price": 300,
-          "key": 3
+          "category": "Newly Added",
+          "menu": [
+            {
+              "name": "five",
+              "price": 500,
+              "key": 5
+            },
+            {
+              "name": "six",
+              "price": 600,
+              "key": 6
+            }
+          ]
         },
         {
-          "name": "four",
-          "price": 400,
-          "key": 4
-        },
-        {
-          "name": "five",
-          "price": 500,
-          "key": 5
-        },
-        {
-          "name": "six",
-          "price": 600,
-          "key": 6
-        },
-        {
-          "name": "seven",
-          "price": 700,
-          "key": 7
-        },
-        {
-          "name": "eight",
-          "price": 800,
-          "key": 8
+          "category": "Coolers",
+          "menu": [
+            {
+              "name": "seven",
+              "price": 700,
+              "key": 7
+            },
+            {
+              "name": "eight",
+              "price": 800,
+              "key": 8
+            }
+          ]
         }
       ]
     },
@@ -1713,44 +1971,64 @@
       "costForTwo": "₹250 for two",
       "menu-items": [
         {
-          "name": "one",
-          "price": 100,
-          "key": 1
+          "category": "Recommended",
+          "menu": [
+            {
+              "name": "one",
+              "price": 100,
+              "key": 1
+            },
+            {
+              "name": "two",
+              "price": 200,
+              "key": 2
+            }
+          ]
         },
         {
-          "name": "two",
-          "price": 200,
-          "key": 2
+          "category": "Thali/Meal",
+          "menu": [
+            {
+              "name": "three",
+              "price": 300,
+              "key": 3
+            },
+            {
+              "name": "four",
+              "price": 400,
+              "key": 4
+            }
+          ]
         },
         {
-          "name": "three",
-          "price": 300,
-          "key": 3
+          "category": "Newly Added",
+          "menu": [
+            {
+              "name": "five",
+              "price": 500,
+              "key": 5
+            },
+            {
+              "name": "six",
+              "price": 600,
+              "key": 6
+            }
+          ]
         },
         {
-          "name": "four",
-          "price": 400,
-          "key": 4
-        },
-        {
-          "name": "five",
-          "price": 500,
-          "key": 5
-        },
-        {
-          "name": "six",
-          "price": 600,
-          "key": 6
-        },
-        {
-          "name": "seven",
-          "price": 700,
-          "key": 7
-        },
-        {
-          "name": "eight",
-          "price": 800,
-          "key": 8
+          "category": "Coolers",
+          "menu": [
+            {
+              "name": "seven",
+              "price": 700,
+              "key": 7
+            },
+            {
+              "name": "eight",
+              "price": 800,
+              "key": 8
+            }
+          ]
         }
       ]
     },
@@ -1761,44 +2039,64 @@
       "costForTwo": "₹400 for two",
       "menu-items": [
         {
-          "name": "one",
-          "price": 100,
-          "key": 1
+          "category": "Recommended",
+          "menu": [
+            {
+              "name": "one",
+              "price": 100,
+              "key": 1
+            },
+            {
+              "name": "two",
+              "price": 200,
+              "key": 2
+            }
+          ]
         },
         {
-          "name": "two",
-          "price": 200,
-          "key": 2
+          "category": "Thali/Meal",
+          "menu": [
+            {
+              "name": "three",
+              "price": 300,
+              "key": 3
+            },
+            {
+              "name": "four",
+              "price": 400,
+              "key": 4
+            }
+          ]
         },
         {
-          "name": "three",
-          "price": 300,
-          "key": 3
+          "category": "Newly Added",
+          "menu": [
+            {
+              "name": "five",
+              "price": 500,
+              "key": 5
+            },
+            {
+              "name": "six",
+              "price": 600,
+              "key": 6
+            }
+          ]
         },
         {
-          "name": "four",
-          "price": 400,
-          "key": 4
-        },
-        {
-          "name": "five",
-          "price": 500,
-          "key": 5
-        },
-        {
-          "name": "six",
-          "price": 600,
-          "key": 6
-        },
-        {
-          "name": "seven",
-          "price": 700,
-          "key": 7
-        },
-        {
-          "name": "eight",
-          "price": 800,
-          "key": 8
+          "category": "Coolers",
+          "menu": [
+            {
+              "name": "seven",
+              "price": 700,
+              "key": 7
+            },
+            {
+              "name": "eight",
+              "price": 800,
+              "key": 8
+            }
+          ]
         }
       ]
     },
@@ -1809,44 +2107,64 @@
       "costForTwo": "₹500 for two",
       "menu-items": [
         {
-          "name": "one",
-          "price": 100,
-          "key": 1
+          "category": "Recommended",
+          "menu": [
+            {
+              "name": "one",
+              "price": 100,
+              "key": 1
+            },
+            {
+              "name": "two",
+              "price": 200,
+              "key": 2
+            }
+          ]
         },
         {
-          "name": "two",
-          "price": 200,
-          "key": 2
+          "category": "Thali/Meal",
+          "menu": [
+            {
+              "name": "three",
+              "price": 300,
+              "key": 3
+            },
+            {
+              "name": "four",
+              "price": 400,
+              "key": 4
+            }
+          ]
         },
         {
-          "name": "three",
-          "price": 300,
-          "key": 3
+          "category": "Newly Added",
+          "menu": [
+            {
+              "name": "five",
+              "price": 500,
+              "key": 5
+            },
+            {
+              "name": "six",
+              "price": 600,
+              "key": 6
+            }
+          ]
         },
         {
-          "name": "four",
-          "price": 400,
-          "key": 4
-        },
-        {
-          "name": "five",
-          "price": 500,
-          "key": 5
-        },
-        {
-          "name": "six",
-          "price": 600,
-          "key": 6
-        },
-        {
-          "name": "seven",
-          "price": 700,
-          "key": 7
-        },
-        {
-          "name": "eight",
-          "price": 800,
-          "key": 8
+          "category": "Coolers",
+          "menu": [
+            {
+              "name": "seven",
+              "price": 700,
+              "key": 7
+            },
+            {
+              "name": "eight",
+              "price": 800,
+              "key": 8
+            }
+          ]
         }
       ]
     },
@@ -1857,44 +2175,64 @@
       "costForTwo": "₹350 for two",
       "menu-items": [
         {
-          "name": "one",
-          "price": 100,
-          "key": 1
+          "category": "Recommended",
+          "menu": [
+            {
+              "name": "one",
+              "price": 100,
+              "key": 1
+            },
+            {
+              "name": "two",
+              "price": 200,
+              "key": 2
+            }
+          ]
         },
         {
-          "name": "two",
-          "price": 200,
-          "key": 2
+          "category": "Thali/Meal",
+          "menu": [
+            {
+              "name": "three",
+              "price": 300,
+              "key": 3
+            },
+            {
+              "name": "four",
+              "price": 400,
+              "key": 4
+            }
+          ]
         },
         {
-          "name": "three",
-          "price": 300,
-          "key": 3
+          "category": "Newly Added",
+          "menu": [
+            {
+              "name": "five",
+              "price": 500,
+              "key": 5
+            },
+            {
+              "name": "six",
+              "price": 600,
+              "key": 6
+            }
+          ]
         },
         {
-          "name": "four",
-          "price": 400,
-          "key": 4
-        },
-        {
-          "name": "five",
-          "price": 500,
-          "key": 5
-        },
-        {
-          "name": "six",
-          "price": 600,
-          "key": 6
-        },
-        {
-          "name": "seven",
-          "price": 700,
-          "key": 7
-        },
-        {
-          "name": "eight",
-          "price": 800,
-          "key": 8
+          "category": "Coolers",
+          "menu": [
+            {
+              "name": "seven",
+              "price": 700,
+              "key": 7
+            },
+            {
+              "name": "eight",
+              "price": 800,
+              "key": 8
+            }
+          ]
         }
       ]
     },
@@ -1905,44 +2243,64 @@
       "costForTwo": "₹300 for two",
       "menu-items": [
         {
-          "name": "one",
-          "price": 100,
-          "key": 1
+          "category": "Recommended",
+          "menu": [
+            {
+              "name": "one",
+              "price": 100,
+              "key": 1
+            },
+            {
+              "name": "two",
+              "price": 200,
+              "key": 2
+            }
+          ]
         },
         {
-          "name": "two",
-          "price": 200,
-          "key": 2
+          "category": "Thali/Meal",
+          "menu": [
+            {
+              "name": "three",
+              "price": 300,
+              "key": 3
+            },
+            {
+              "name": "four",
+              "price": 400,
+              "key": 4
+            }
+          ]
         },
         {
-          "name": "three",
-          "price": 300,
-          "key": 3
+          "category": "Newly Added",
+          "menu": [
+            {
+              "name": "five",
+              "price": 500,
+              "key": 5
+            },
+            {
+              "name": "six",
+              "price": 600,
+              "key": 6
+            }
+          ]
         },
         {
-          "name": "four",
-          "price": 400,
-          "key": 4
-        },
-        {
-          "name": "five",
-          "price": 500,
-          "key": 5
-        },
-        {
-          "name": "six",
-          "price": 600,
-          "key": 6
-        },
-        {
-          "name": "seven",
-          "price": 700,
-          "key": 7
-        },
-        {
-          "name": "eight",
-          "price": 800,
-          "key": 8
+          "category": "Coolers",
+          "menu": [
+            {
+              "name": "seven",
+              "price": 700,
+              "key": 7
+            },
+            {
+              "name": "eight",
+              "price": 800,
+              "key": 8
+            }
+          ]
         }
       ]
     }

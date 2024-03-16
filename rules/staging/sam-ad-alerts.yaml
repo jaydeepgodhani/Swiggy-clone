@@ -1,0 +1,67 @@
+groups:
+  - name: SAM AD Alerts
+    rules:
+      - alert: SAM AD rotate secret failure
+        annotations:
+          message: "SAM AD rotate secret failure"
+        expr: increase(sam_ad_rotate_secret_failure_counter_total{service="service-account-mgmt"}[10m]) > 0
+        for: 5m
+        labels:
+          severity: warning
+          alert_team: data_platform_dp_app_data_platform_security
+          mms_slack_channel: data-platform-security-alerts
+          alert_component: "{{$labels.instance_id}}}_{{ $labels.location}}"
+          cluster_id: "{{$labels.cluster_id}}"
+          instance_id: "{{$labels.instance_id}}"
+
+      - alert: SAM AD delete secret failure
+        annotations:
+          message: "SAM AD delete secret failure"
+        expr: increase(sam_ad_delete_secret_failure_counter_total{service="service-account-mgmt"}[10m]) > 0
+        for: 5m
+        labels:
+          severity: warning
+          alert_team: data_platform_dp_app_data_platform_security
+          mms_slack_channel: data-platform-security-alerts
+          alert_component: "{{$labels.instance_id}}}_{{ $labels.location}}"
+          cluster_id: "{{$labels.cluster_id}}"
+          instance_id: "{{$labels.instance_id}}"
+
+      - alert: SAM AD expired secret failure
+        annotations:
+          message: "SAM AD expired secret failure"
+        expr: increase(sam_ad_expired_secret_handler_failure_counter_total{service="service-account-mgmt"}[10m]) > 0
+        for: 5m
+        labels:
+          severity: warning
+          alert_team: data_platform_dp_app_data_platform_security
+          mms_slack_channel: data-platform-security-alerts
+          alert_component: "{{$labels.instance_id}}}_{{ $labels.location}}"
+          cluster_id: "{{$labels.cluster_id}}"
+          instance_id: "{{$labels.instance_id}}"
+
+      - alert: SAM AD expired secondary secret delete failure
+        annotations:
+          message: "SAM AD expired secondary secret delete failure"
+        expr: increase(sam_ad_expired_secondary_secret_delete_failure_counter_total{service="service-account-mgmt"}[10m]) > 0
+        for: 5m
+        labels:
+          severity: warning
+          alert_team: data_platform_dp_app_data_platform_security
+          mms_slack_channel: data-platform-security-alerts
+          alert_component: "{{$labels.instance_id}}}_{{ $labels.location}}"
+          cluster_id: "{{$labels.cluster_id}}"
+          instance_id: "{{$labels.instance_id}}"
+
+      - alert: SAM AD near expiry secret rotation failure
+        annotations:
+          message: "SAM AD near expiry secret rotation failure"
+        expr: increase(sam_ad_near_expiry_secret_rotation_failure_counter_total{service="service-account-mgmt"}[10m]) > 0
+        for: 5m
+        labels:
+          severity: warning
+          alert_team: data_platform_dp_app_data_platform_security
+          mms_slack_channel: data-platform-security-alerts
+          alert_component: "{{$labels.instance_id}}}_{{ $labels.location}}"
+          cluster_id: "{{$labels.cluster_id}}"
+          instance_id: "{{$labels.instance_id}}"

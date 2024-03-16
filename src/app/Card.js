@@ -21,10 +21,12 @@ export const CardWithPromoted = (Card) => {
   return (props) => {
     return (
       <div>
-        <label className="absolute bg-black text-white m-3 px-2 rounded-r">Promoted</label>
-        <Card {...props}/>
+        <label className="absolute bg-black text-white m-3 px-2 rounded-r hover:z-99">
+          Promoted
+        </label>
+        <Card {...props} />
       </div>
-    )
+    );
   }
 }
 

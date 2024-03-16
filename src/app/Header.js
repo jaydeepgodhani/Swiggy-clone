@@ -1,10 +1,13 @@
-import { useState, lazy } from "react";
+import { useState, lazy, useContext } from "react";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import UserContext from "../utils/UserContext";
 
 const Header = () => {
 
   const isOnline = useOnlineStatus();
+
+  const loggedInUser = useContext(UserContext);
 
   const [loginValue, setLoginValue] = useState("Login");
 
@@ -36,6 +39,7 @@ const Header = () => {
         >
           {loginValue}
         </button>
+        {loggedInUser.loggedInUser}
       </div>
     </div>
   );
