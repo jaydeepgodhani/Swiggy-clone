@@ -2,10 +2,14 @@ import { useState, lazy, useContext } from "react";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import UserContext from "../utils/UserContext";
+import { useSelector } from "react-redux";
 
 const Header = () => {
 
   const isOnline = useOnlineStatus();
+
+  const cartItems = useSelector((store) => store.cart.items);
+  console.log(cartItems);
 
   const loggedInUser = useContext(UserContext);
 
@@ -23,10 +27,13 @@ const Header = () => {
             <Link to="/">Home</Link>
           </li>
           <li className="bg-white mx-2 px-6 py-1 rounded-md">
-            <Link to="/about">About</Link>
+            <Link to="/about">About Us</Link>
           </li>
           <li className="bg-white mx-2 px-6 py-1 rounded-md">
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact">Contact Us</Link>
+          </li>
+          <li className="bg-white mx-2 px-6 py-1 rounded-md font-bold">
+            <Link to="/cart">Cart ({cartItems.length})</Link>
           </li>
         </ul>
         <button
