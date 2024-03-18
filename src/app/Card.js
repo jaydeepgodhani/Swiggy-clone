@@ -1,7 +1,7 @@
 import { fetchDataImg } from "../utils/Constants";
 
-const Card = (prop) => {
-  const {name, cloudinaryImageId, costForTwo, avgRating, totalRatingsString, id} = prop?.data;
+const Card = ({data}) => {
+  const {name, cloudinaryImageId, costForTwo, avgRating, totalRatingsString, id} = data;
   return (
     <div className="m-3 p-3 border-solid border-grey border-2 rounded-md w-[200px] h-[280px] overflow-hidden hover:border-black hover:bg-gray-700 hover:shadow-md hover:text-white ease-in-out duration-300 hover:scale-105">
       <img

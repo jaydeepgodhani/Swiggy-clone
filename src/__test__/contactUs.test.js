@@ -2,6 +2,7 @@ import { render, screen } from "@testing-library/react";
 import Contact from "../app/Contact";
 import "@testing-library/jest-dom";
 
+// tests are run inside jsdom(browser-like)
 describe("contact us page test cases", () => {
   test("should load contact us component", () => {
     render(<Contact/>);
