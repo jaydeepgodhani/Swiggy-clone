@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import { fetchDataImg, fetchDataURL, data } from "../utils/Constants";
-import { Link, useParams } from "react-router-dom";
+import { fetchDataURL } from "../utils/Constants";
+import { Link } from "react-router-dom";
 import Card, { CardWithPromoted } from "./Card";
 
 const Body = () => {
@@ -28,6 +28,7 @@ const Body = () => {
         <div>
           <input
             type="text"
+            data-testid="body-input"
             className="border border-solid border-black rounded-md p-1"
             onChange={(e) => {
               setInputText(e.target.value);
@@ -37,7 +38,7 @@ const Body = () => {
           <button
             onClick={() => {
               setDisplayData(
-                hotelData.filter((item) => item.name.includes(inputText))
+                hotelData.filter((item) => item.name.toLowerCase().includes(inputText.toLowerCase()))
               );
             }}
             className="px-4 bg-blue-500 mx-4 rounded-md py-1 text-white hover:bg-blue-600 ease-in-out duration-300 border-2 border-black"
@@ -49,7 +50,10 @@ const Body = () => {
               return (
                 <Link key={item.id} to={"/restaurant/" + item.id}>
                   {item.promoted == true ? (
-                    <CardPromoted key={item.id} data={item} />
+                    <CardPromoted
+                      key={item.id}
+                      data={item}
+                    />
                   ) : (
                     <Card key={item.id} data={item} />
                   )}

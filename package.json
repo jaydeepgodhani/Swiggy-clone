@@ -5,6 +5,7 @@
   "main": "App.js",
   "scripts": {
     "test": "jest",
+    "watch": "jest --watch",
     "start": "parcel --no-cache index.html",
     "build": "parcel build index.html"
   },
